@@ -1,0 +1,52 @@
+/* Styles personnalisés */
+
+.hero {
+    background-color: #f8f9fa;
+    padding: 100px 0;
+    background-image: url(img/bg.jpg);
+    background-position-x: center;
+    background-size: cover;
+    
+   
+}
+
+
+
+/* Styles personnalisés pour les cartes */
+
+.card {
+	transition: transform 0.3s ease-in-out;
+    border: 1px solid #ddd; /* Ajoute une bordure grise autour de chaque carte */
+    border-radius: 8px; /* Arrondit les coins des cartes */
+    transition: transform 0.3s ease-in-out; /* Ajoute une transition douce au survol */
+
+    /* Ajuste la hauteur des cartes pour qu'elles aient la même taille */
+    height: 100%;
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Décale légèrement la carte vers le haut au survol */
+}
+
+.card-title {
+    font-size: 1.25rem; /* Taille de police pour le titre de la carte */
+    font-weight: bold; /* Texte en gras pour le titre de la carte */
+}
+
+.card-text {
+    color: #666; /* Couleur du texte de la description */
+}
+
+/* Style pour la section des services (pour espacer les cartes) */
+#services {
+    padding-top: 50px; /* Espacement supplémentaire en haut de la section des services */
+    padding-bottom: 50px; /* Espacement supplémentaire en bas de la section des services */
+}
+
+
+
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px 0;
+}
